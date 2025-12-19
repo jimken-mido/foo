@@ -51,7 +51,7 @@ function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Documentation for ConfigCat Feature Flags. ConfigCat is a developer-centric feature flag service with unlimited team size, awesome support, and a reasonable price tag."
+      description="High-end GPU servers for HPC and AI workloads delivered to your doorstep."
     >
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
