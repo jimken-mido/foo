@@ -95,7 +95,17 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog',
+           label: 'Blog',
+          position: 'left'
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'tutorialSidebar',
+            position: 'right',
+            label: 'Tutorial',
+            type: 'docsVersionDropdown',
+          },
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
