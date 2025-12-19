@@ -60,10 +60,28 @@ function Home() {
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <img
             className={clsx('no-auto-height', styles.heroImage)}
-            src={useBaseUrl('img/docs.svg')}
-            alt="ConfigCat Docs"
+            src={useBaseUrl('img/phoenix.svg')}
+            alt="Phoenix Docs"
           />
           <div className={styles.buttons}>
+            <Link
+              className={clsx(
+                'button button--secondary button--lg',
+                styles.getStarted,
+              )}
+              to={useBaseUrl('getting-started')}
+            >
+              Open Docs
+            </Link>
+            <Link
+              className={clsx(
+                'button button--secondary button--lg',
+                styles.getStarted,
+              )}
+              to={useBaseUrl('getting-started')}
+            >
+              Open Docs
+            </Link>
             <Link
               className={clsx(
                 'button button--secondary button--lg',
