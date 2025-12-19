@@ -8,10 +8,9 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Basics',
-    description: <>Familiarize with ConfigCat basics.</>,
+    title: '',
+    description: <></>,
     links: [
-      { url: 'getting-started', title: 'Getting started' },
     ],
   },
 
@@ -64,33 +63,27 @@ function Home() {
             alt="Phoenix Docs"
           />
           <div className={styles.buttons}>
+          <Link
+            className="button button--secondary button--lg"
+            to="/docs/intro">
+            User
+          </Link>
+           </div>
+           <p></p>
+          <div className={styles.buttons}>
             <Link
-              className={clsx(
-                'button button--secondary button--lg',
-                styles.getStarted,
-              )}
-              to={useBaseUrl('getting-started')}
-            >
-              Open Docs
-            </Link>
+            className="button button--secondary button--lg"
+            to="/docs/intro">
+            Tenant
+          </Link>
+          </div>
+          <p></p>
+          <div className={styles.buttons}>
             <Link
-              className={clsx(
-                'button button--secondary button--lg',
-                styles.getStarted,
-              )}
-              to={useBaseUrl('getting-started')}
-            >
-              Open Docs
-            </Link>
-            <Link
-              className={clsx(
-                'button button--secondary button--lg',
-                styles.getStarted,
-              )}
-              to={useBaseUrl('getting-started')}
-            >
-              Open Docs
-            </Link>
+            className="button button--secondary button--lg"
+            to="/docs/intro">
+            Service Operator
+          </Link>
           </div>
         </div>
       </header>
@@ -98,7 +91,9 @@ function Home() {
         {features && features.length > 0 && (
           <section className={styles.features}>
             <div className="container">
-              <h2 className="text--center">Quick links</h2>
+              <h2 className="text--center">Lorem Ipsum Dolor</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
               <div className="row">
                 {features.map((props, idx) => (
                   <Feature key={idx} {...props} />
