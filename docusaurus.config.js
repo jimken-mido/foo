@@ -120,7 +120,6 @@ const config = {
         src: 'img/logo.png',
         href: 'https://midokura.com',
       },      
-        style: 'dark',
         copyright: `Copyright © ${new Date().getFullYear()} Midokura. Built with Docusaurus.`,
       },
       prism: {
