@@ -70,6 +70,7 @@ Once the repo is private (under the Midokura name) and the website is password-p
 - Add some marketing text content for the front page
 - In the navbar should we remove direct link to Github repo, if clients cannot access it?
 - In the navbar, rename Tutorial to Docs
+- Tidy up the phrasing of the copyright notice, currently Copyright © 2026 Midokura
 - In the navbar, rename Blog to Release Notes
 - Switch Lorem Ipsum content for real content
 
