@@ -48,7 +48,6 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 
 At the moment the repo is public (under Jim's name) and the website is public (on github pages), therefore we can only use Lorem Ipsum content.
 
-- Check ability to remove 'Next' from releases list, so that the website only updates on version releases, not on pushes to main.
 - Check with Aaron on status of:
 -- https://aitrios.atlassian.net/browse/CTRL-4921
 -- https://aitrios.atlassian.net/browse/CTRL-4920
@@ -65,4 +64,7 @@ Once the repo is private (under the Midokura name) and the website is password-p
 - In the navbar, rename Tutorial to Docs
 - In the navbar, rename Blog to Release Notes
 - Switch Lorem Ipsum content for real content
-  
+
+## Done
+
+- Remove 'Next' from releases list, so that the website only updates on version releases, not on pushes to main. This was set by 'includeCurrentVersion: false,'
