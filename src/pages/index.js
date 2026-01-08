@@ -87,6 +87,7 @@ function Home() {
           </div>
         </div>
       </header>
+      
       <main>
         {features && features.length > 0 && (
           <section className={styles.features}>

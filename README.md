@@ -54,6 +54,9 @@ At the moment the repo is public (under Jim's name) and the website is public (o
 -- https://aitrios.atlassian.net/browse/CTRL-4917
 - Check if the phoenix svg is legal to use
 - Check how it looks on mobile
+- Add password protection
+- Add password to bitwarden
+- Use Midokura colours
 
 ## Next Up
 
@@ -68,3 +71,4 @@ Once the repo is private (under the Midokura name) and the website is password-p
 ## Done
 
 - Remove 'Next' from releases list, so that the website only updates on version releases, not on pushes to main. This was set by 'includeCurrentVersion: false,'
+- Make background  hero image color gradient in Midokura colors

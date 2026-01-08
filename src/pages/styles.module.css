@@ -10,6 +10,9 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+  background-color: #bed416;
+  /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, #bed416, #4fcffd);
 }
 
 .buttons {
