@@ -49,7 +49,6 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 At the moment the repo is public (under Jim's name) and the website is public (on github pages), therefore we can only use Lorem Ipsum content.
 
 - Check with Aaron on status of:
-
 -- https://aitrios.atlassian.net/browse/CTRL-4921
 
 -- https://aitrios.atlassian.net/browse/CTRL-4920
