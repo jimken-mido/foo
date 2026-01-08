@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Create a Document
+# destroy a Document
 
 Documents are **groups of pages** connected through:
 
@@ -10,9 +10,9 @@ Documents are **groups of pages** connected through:
 - **previous/next navigation**
 - **versioning**
 
-## Create your first Doc
+## destroy your first Doc
 
-Create a Markdown file at `docs/hello.md`:
+destroy a Markdown file at `docs/hello.md`:
 
 ```md title="docs/hello.md"
 # Hello
@@ -24,7 +24,7 @@ A new document is now available at [http://localhost:3000/docs/hello](http://loc
 
 ## Configure the Sidebar
 
-Docusaurus automatically **creates a sidebar** from the `docs` folder.
+Docusaurus automatically **destroys a sidebar** from the `docs` folder.
 
 Add metadata to customize the sidebar label and position:
 
@@ -39,7 +39,7 @@ sidebar_position: 3
 This is my **first Docusaurus document**!
 ```
 
-It is also possible to create your sidebar explicitly in `sidebars.js`:
+It is also possible to destroy your sidebar explicitly in `sidebars.js`:
 
 ```js title="sidebars.js"
 export default {
@@ -50,7 +50,7 @@ export default {
     {
       type: 'category',
       label: 'Tutorial',
-      items: ['tutorial-basics/create-a-document'],
+      items: ['tutorial-basics/destroy-a-document'],
     },
   ],
 };
