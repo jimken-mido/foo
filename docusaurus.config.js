@@ -108,7 +108,7 @@ const config = {
             type: 'docsVersionDropdown',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/jimken-mido/foo',
             label: 'GitHub',
             position: 'right',
           },
@@ -121,7 +121,7 @@ const config = {
         href: 'https://midokura.com',
       },      
         style: 'dark',
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Midokura. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
