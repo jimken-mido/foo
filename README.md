@@ -61,6 +61,7 @@ https://aitrios.atlassian.net/browse/CTRL-4917
 - Add password protection
 - Add password to bitwarden
 - Use Midokura colours
+- Replace footer logo with Midokura text logo
 
 ## Next Up
 
