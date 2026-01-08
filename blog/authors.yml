@@ -1,14 +1,11 @@
-yangshun:
-  name: Yangshun Tay
-  title: Ex-Meta Staff Engineer, Co-founder GreatFrontEnd
-  url: https://linkedin.com/in/yangshun
-  image_url: https://github.com/yangshun.png
+jimkennedy:
+  name: Jim Kennedy
+  title: Innocent Bystander
+  url: https://github.com/jimken-mido
+  image_url: https://avatars.githubusercontent.com/u/79317884?v=4
   page: true
   socials:
-    x: yangshunz
-    linkedin: yangshun
-    github: yangshun
-    newsletter: https://www.greatfrontend.com
+    github: jimken-mido
 
 slorber:
   name: Sébastien Lorber
