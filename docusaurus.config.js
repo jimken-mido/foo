@@ -94,10 +94,10 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
           },
           {to: '/blog',
-           label: 'Blog',
+           label: 'Release Notes',
           position: 'left'
           },
           {
