@@ -48,6 +48,8 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 
 At the moment the repo is public (under Jim's name) and the website is public (on github pages), therefore we can only use Lorem Ipsum content.
 
+- Add placeholders for various releases
+
 - Check with Aaron on status of:
 
 https://aitrios.atlassian.net/browse/CTRL-4921
@@ -58,8 +60,6 @@ https://aitrios.atlassian.net/browse/CTRL-4917
 
 - Check if the phoenix svg is legal to use
 - Check how it looks on mobile
-- Add password protection
-- Add password to bitwarden
 - Use Midokura colours
 - Replace footer logo with Midokura text logo
 
@@ -67,12 +67,15 @@ https://aitrios.atlassian.net/browse/CTRL-4917
 
 Once the repo is private (under the Midokura name) and the website is password-protected (on docs.midokura.com), we can start adding the real content.
 
+- Add password protection
+- Add password to bitwarden
 - Add some marketing text content for the front page
 - In the navbar should we remove direct link to Github repo, if clients cannot access it?
 - In the navbar, rename Tutorial to Docs
 - Tidy up the phrasing of the copyright notice, currently Copyright © 2026 Midokura
 - In the navbar, rename Blog to Release Notes
 - Switch Lorem Ipsum content for real content
+- Rewrite the README above to explain how to do a docs release 
 
 ## Done
 
