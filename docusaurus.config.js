@@ -27,8 +27,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'midokura', // Usually your GitHub org/user name.
+  projectName: 'phoenix', // Usually your repo name.
 
   onBrokenLinks: 'warn',
 
@@ -117,10 +117,10 @@ const config = {
       footer: {
         logo: {
         alt: 'Midokura',
-        src: 'img/logo.png',
+        src: 'img/logo-midokura.png',
         href: 'https://midokura.com',
       },      
-        copyright: `Copyright © ${new Date().getFullYear()} Midokura. Built with Docusaurus.`,
+        copyright: `©${new Date().getFullYear()} Midokura`,
       },
       prism: {
         theme: prismThemes.github,
