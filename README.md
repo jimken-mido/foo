@@ -60,7 +60,7 @@ This command will:
 
 ## Remove a Version
 
-If we need to remove a no-longer-supported version of the docs, remove the reference to the version in `versions.json`.
+If we need to remove a no-longer-supported version of the docs from the website, remove the reference to the version in `versions.json`. Note that this doesn't delete the version source files, but just unpublishes them from the website.
 
 # To Do
 
