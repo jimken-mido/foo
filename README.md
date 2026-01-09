@@ -68,8 +68,6 @@ If we need to remove a no-longer-supported version of the docs from the website,
 
 At the moment the repo is public (under Jim's name) and the website is public (on github pages), therefore we can only use Lorem Ipsum content.
 
-- Add placeholders for various releases
-
 - Check with Aaron on status of:
 
 https://aitrios.atlassian.net/browse/CTRL-4921
@@ -86,6 +84,8 @@ https://aitrios.atlassian.net/browse/CTRL-4917
 
 Once the repo is private (under the Midokura name) and the website is password-protected (on docs.midokura.com), we can start adding the real content.
 
+- Update /draft/_authors.yml for all authors
+- Update blog/authors.yml from /draft/_authors.yml
 - Add password protection
 - Add password to bitwarden
 - Add some marketing text content for the front page
@@ -97,6 +97,7 @@ Once the repo is private (under the Midokura name) and the website is password-p
 
 ## Done
 
+- Add placeholders for various releases
 - Tidy up the phrasing of the copyright notice, currently Copyright © 2026 Midokura
 - Replace footer logo with Midokura text logo
 - Remove 'Next' from releases list, so that the website only updates on version releases, not on pushes to main. This was set by 'includeCurrentVersion: false,'
