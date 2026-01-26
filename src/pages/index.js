@@ -59,14 +59,14 @@ function Home() {
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <img
             className={clsx('no-auto-height', styles.heroImage)}
-            src={useBaseUrl('img/phoenix.svg')}
-            alt="Phoenix Docs"
+            src={useBaseUrl('img/foo.svg')}
+            alt="foo svg"
           />
           <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            User
+            One thing
           </Link>
            </div>
            <p></p>
@@ -74,7 +74,7 @@ function Home() {
             <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Tenant
+            Another thing
           </Link>
           </div>
           <p></p>
@@ -82,7 +82,7 @@ function Home() {
             <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Service Operator
+            Third thing
           </Link>
           </div>
         </div>

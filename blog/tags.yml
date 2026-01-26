@@ -8,7 +8,7 @@ hola:
   permalink: /hola
   description: Hola tag description
 
-phoenix:
-  label: Phoenix
-  permalink: /phoenix
-  description: Phoenix tag description
+foo:
+  label: foo
+  permalink: /foo
+  description: foo tag description

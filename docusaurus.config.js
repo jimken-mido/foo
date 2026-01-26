@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Midokura Phoenix',
-  tagline: 'High-end GPU servers for HPC and AI workloads delivered to your doorstep',
+  title: 'Generic Foo',
+  tagline: 'Finbarr Foo Bar',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -27,8 +27,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'midokura', // Usually your GitHub org/user name.
-  projectName: 'phoenix', // Usually your repo name.
+  organizationName: 'jimken123', // Usually your GitHub org/user name.
+  projectName: 'foo', // Usually your repo name.
 
   onBrokenLinks: 'warn',
 
@@ -79,14 +79,14 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/phoenix.svg',
+      image: 'img/foo.svg',
       colorMode: {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'Phoenix Documentation',
+        title: 'Foo bar',
         logo: {
-          alt: 'Midokura Logo',
+          alt: 'foo Logo',
           src: 'img/logo.png',
         },
         items: [
@@ -94,10 +94,10 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Docs',
+            label: 'Pages',
           },
           {to: '/blog',
-           label: 'Release Notes',
+           label: 'Blogs',
           position: 'left'
           },
           {
@@ -108,7 +108,7 @@ const config = {
             type: 'docsVersionDropdown',
           },
           {
-            href: 'https://github.com/jimken-mido/foo',
+            href: 'https://github.com/jimken123/foo',
             label: 'GitHub',
             position: 'right',
           },
@@ -116,11 +116,11 @@ const config = {
       },
       footer: {
         logo: {
-        alt: 'Midokura',
-        src: 'img/logo-midokura.png',
-        href: 'https://midokura.com',
+        alt: 'Jim Kennedy',
+        src: 'img/logo.png',
+        href: 'https://mananamanana.com',
       },      
-        copyright: `©${new Date().getFullYear()} Midokura`,
+        copyright: `©${new Date().getFullYear()} Somebody, maybe`,
       },
       prism: {
         theme: prismThemes.github,
