@@ -55,7 +55,7 @@ const config = {
         },
         blog: {
           showReadingTime: true,
-          blogTitle: 'Docusaurullblog!',
+          blogTitle: 'Release Notes',
           blogSidebarCount: 'ALL',
           blogSidebarTitle: 'All posts',
           feedOptions: {
