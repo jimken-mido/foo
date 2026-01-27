@@ -97,7 +97,7 @@ const config = {
             label: 'Pages',
           },
           {to: '/blog',
-           label: 'Blogs',
+           label: 'Release Notes',
           position: 'left'
           },
           {
