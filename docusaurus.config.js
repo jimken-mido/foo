@@ -35,11 +35,24 @@ const config = {
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
+  
+
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'fr', 'fa'],
+    localeConfigs: {
+      en: {
+        htmlLang: 'en-GB',
+      },
+      // You can omit a locale (e.g. fr) if you don't need to override the defaults
+      fa: {
+        direction: 'rtl',
+      },
+    },
   },
 
+
+  
   presets: [
     [
       'classic',
@@ -101,6 +114,10 @@ const config = {
           {to: '/blog',
            label: 'Release Notes',
           position: 'left'
+          },
+          {
+          type: 'localeDropdown',
+          position: 'left',
           },
           {
             type: 'docSidebar',
