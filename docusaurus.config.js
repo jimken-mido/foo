@@ -68,6 +68,7 @@ const config = {
         },
         blog: {
           showReadingTime: true,
+          blogTitle: 'Release Notes',
           blogSidebarCount: 'ALL',
           blogSidebarTitle: 'All posts',
           feedOptions: {
