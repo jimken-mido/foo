@@ -1,0 +1,10 @@
+{
+  "copyright": {
+    "message": "©2026 Somebody, maybe",
+    "description": "The footer copyright"
+  },
+  "logo.alt": {
+    "message": "Jim Kennedy",
+    "description": "The alt text of footer logo"
+  }
+}
