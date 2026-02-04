@@ -2,6 +2,9 @@
 sidebar_position: 1
 ---
 
+Oh la la, ce vraiment francais.
+
+
 # Tutorial Intro
 
 Let's discover **Docusaurus in less than 5 minutes**.
