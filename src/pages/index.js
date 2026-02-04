@@ -44,7 +44,7 @@ function FeatureItems(links) {
     </ul>
   );
 }
-
+<a name="top"></a>
 function Home() {
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
@@ -104,6 +104,7 @@ function Home() {
           </section>
         )}
       </main>
+      <a href="#top">&#8593;</a>
     </Layout>
   );
 }
